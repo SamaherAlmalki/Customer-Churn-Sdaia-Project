@@ -6,12 +6,14 @@ The goal of this project was to use binary classification models to predict chur
 This project originates from [bank dataset](https://www.kaggle.com/sakshigoyal7/credit-card-customers) presents a binary class of attrition flag that is existing customer or attired customer. Classifying attrition accurately via machine learning models would enable the bank to improve their performance.
 ## Data
 The dataset contains 10128 customers with 21 features, 6 are nominal and ordinal categorical feature, such as: Attrition Flag our target variable, Education, Marital Status, Card Category exc.. Also, 15 numerical features highlight Age, Credit Limit, Total Revolving Balance, Average Card Utilization Ratio exc.., To answer the question I selected some of relevant categorical and numerical features that may affect the prediction.
-## Algorithms
+## Algorithm
+__
 *Feature Engineering*
 1.	Encoding categorical features to ordinal and dummy variables.
 2.	Oversample negative class to balance the dataset.
 3.	Identify and drop highly correlated features using correlation function.
 4.	Used SelectKBest and chi2 to calculate relevance scores of each feature to the target variable.
+__
 *Models*
 Logistic regression, k-nearest neighbors, and random forest classifiers and perform GridSearchCV to choose hyperparameters were used before settling on Random forest model as it’s the strongest model performance. 
 Model Evaluation and Selection
