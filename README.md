@@ -13,7 +13,7 @@ ___
 2.	Oversample negative class to balance the dataset.
 3.	Identify and drop highly correlated features using correlation function.
 4.	Used SelectKBest and chi2 to calculate relevance scores of each feature to the target variable.
-__
+___
 *Models*
 Logistic regression, k-nearest neighbors, and random forest classifiers and perform GridSearchCV to choose hyperparameters were used before settling on Random forest model as it’s the strongest model performance. 
 Model Evaluation and Selection
