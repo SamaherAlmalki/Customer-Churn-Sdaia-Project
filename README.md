@@ -7,14 +7,14 @@ This project originates from [bank dataset](https://www.kaggle.com/sakshigoyal7/
 ## Data
 The dataset contains 10128 customers with 21 features, 6 are nominal and ordinal categorical feature, such as: Attrition Flag our target variable, Education, Marital Status, Card Category exc.. Also, 15 numerical features highlight Age, Credit Limit, Total Revolving Balance, Average Card Utilization Ratio exc.., To answer the question I selected some of relevant categorical and numerical features that may affect the prediction.
 ## Algorithm
-___
+  
 *Feature Engineering*
 1.	Encoding categorical features to ordinal and dummy variables.
 2.	Oversample negative class to balance the dataset.
 3.	Identify and drop highly correlated features using correlation function.
 4.	Used SelectKBest and chi2 to calculate relevance scores of each feature to the target variable.
-___
-*Models*
+  
+*Models*  
 Logistic regression, k-nearest neighbors, and random forest classifiers and perform GridSearchCV to choose hyperparameters were used before settling on Random forest model as it’s the strongest model performance. 
 Model Evaluation and Selection
 Working in split data that is encoded correctly, balanced, using the most relevant futures selection to predict and the official metrics was accuracy and F1 score to focus on the negative class/attired customers for correct prediction.
