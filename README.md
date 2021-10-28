@@ -1,6 +1,5 @@
-<p align="center">
-    # Predict the Churning Customer
-</p>                                                  
+<h1 align="center" style="margin-top: 0px;">Material Bread</h1>
+
 ## Abstract
 The goal of this project was to use binary classification models to predict churning customers in the bank to know who is going to be churned so they can proactively provide them with better services and influence customers' decisions to use the bank services and improve the performance. I worked with data provided in from Kaggle, did exploratory data analysis using Python and Tableau for better visualization and feature engineering with categorical features, fixed imbalance in the dataset and future selection, exploring models such as logistic regression, KNN and random forest and perform GridSearchCV to choose hyperparameters, to sum up, random forest model was the best model to achieve promising results for this binary classification problem. 
 ## Design
