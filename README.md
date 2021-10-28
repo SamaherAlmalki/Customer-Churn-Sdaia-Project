@@ -7,7 +7,7 @@ This project originates from [bank dataset](https://www.kaggle.com/sakshigoyal7/
 ## Data
 The dataset contains 10128 customers with 21 features, 6 are nominal and ordinal categorical feature, such as: Attrition Flag our target variable, Education, Marital Status, Card Category exc.. Also, 15 numerical features highlight Age, Credit Limit, Total Revolving Balance, Average Card Utilization Ratio exc.., To answer the question I selected some of relevant categorical and numerical features that may affect the prediction.
 ## Algorithm
-__
+___
 *Feature Engineering*
 1.	Encoding categorical features to ordinal and dummy variables.
 2.	Oversample negative class to balance the dataset.
